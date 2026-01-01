@@ -1,0 +1,55 @@
+# =========================
+# General
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# =========================
+# Python / Backend (if used)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# =========================
+# Database / pgAdmin
+# =========================
+*.sqlite3
+*.db
+pgdata/
+postgres-data/
+
+# =========================
+# Docker
+# =========================
+.dockerignore
+docker-compose.override.yml
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/

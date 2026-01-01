@@ -1,0 +1,12 @@
+1️⃣ Install Bootstrap (once)
+
+In your frontend folder:
+
+npm install bootstrap
+
+
+Then import it in main.jsx or index.js:
+
+import "bootstrap/dist/css/bootstrap.min.css";
+//-----------------------------------------------------------
+npm install react-bootstrap bootstrap
