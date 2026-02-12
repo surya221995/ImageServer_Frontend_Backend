@@ -24,6 +24,9 @@ yarn-error.log*
 dist/
 build/
 
+
+
+
 # =========================
 # Python / Backend (if used)
 # =========================

@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {BrowserRouter} from 'react-router-dom' //------------
+// import {BrowserRouter} from 'react-router-dom' //------------
+import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -10,10 +11,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-<BrowserRouter> 
+ <React.StrictMode>
  <App />
-</BrowserRouter>
-  
+ </React.StrictMode>
+// if application screen look blank
+//   ⚠️ Do NOT wrap BrowserRouter here since we already wrapped it inside App.js. use React.StrickMode
 );
 
 // If you want to start measuring performance in your app, pass a function

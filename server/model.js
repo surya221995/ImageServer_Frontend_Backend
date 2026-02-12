@@ -21,6 +21,9 @@ const Product = sequelize.define("Product", {
   color_desc: {
     type: DataTypes.STRING
   },
+  wheel_selection : {
+    type: DataTypes.STRING
+  },
   file_type: {
     type: DataTypes.STRING
   },
